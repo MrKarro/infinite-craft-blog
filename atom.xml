@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mrkarro.github.io/</id>
     <title>Infinite Craft Studio</title>
-    <updated>2019-11-16T08:48:58.373Z</updated>
+    <updated>2019-11-16T14:14:48.016Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mrkarro.github.io/"/>
     <link rel="self" href="https://mrkarro.github.io//atom.xml"/>
@@ -30,6 +30,13 @@
         <link href="https://mrkarro.github.io//post/IC-about">
         </link>
         <updated>2019-11-16T04:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[只能用官方IP访问Hypixel吗？答案：无限个。【加速ip分享】]]></title>
+        <id>https://mrkarro.github.io//post/hypip</id>
+        <link href="https://mrkarro.github.io//post/hypip">
+        </link>
+        <updated>2019-11-03T04:00:00.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 启用]]></title>
