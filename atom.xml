@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mrkarro.github.io/</id>
     <title>Infinite Craft Studio</title>
-    <updated>2019-11-16T06:00:23.507Z</updated>
+    <updated>2019-11-16T06:21:40.629Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mrkarro.github.io/"/>
     <link rel="self" href="https://mrkarro.github.io//atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://mrkarro.github.io//images/avatar.png</logo>
     <icon>https://mrkarro.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Infinite Craft Studio</rights>
+    <entry>
+        <title type="html"><![CDATA[我们的服务器 - Nicholas]]></title>
+        <id>https://mrkarro.github.io//post/wo-men-de-fu-wu-qi-nicholas</id>
+        <link href="https://mrkarro.github.io//post/wo-men-de-fu-wu-qi-nicholas">
+        </link>
+        <updated>2019-11-16T06:19:33.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「Infinite Craft Studio」无限工艺工作室]]></title>
         <id>https://mrkarro.github.io//post/IC-about</id>
