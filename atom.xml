@@ -2,14 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mrkarro.github.io/</id>
     <title>Infinite Craft Studio</title>
-    <updated>2019-11-16T15:28:46.518Z</updated>
+    <updated>2020-02-06T10:37:13.798Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mrkarro.github.io/"/>
     <link rel="self" href="https://mrkarro.github.io//atom.xml"/>
     <subtitle>Interested in Minecraft</subtitle>
     <logo>https://mrkarro.github.io//images/avatar.png</logo>
     <icon>https://mrkarro.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, Infinite Craft Studio</rights>
+    <rights>All rights reserved 2020, Infinite Craft Studio</rights>
+    <entry>
+        <title type="html"><![CDATA[一个不愿意透露姓名又没文化的还想送句子给某个人的网友做的不好看的访问速度贼慢的别人都不知道的自己工作室的一个网页...]]></title>
+        <id>https://mrkarro.github.io//post/birthday-gift-for-catherine-only</id>
+        <link href="https://mrkarro.github.io//post/birthday-gift-for-catherine-only">
+        </link>
+        <updated>2020-02-06T09:26:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>听好了，接下来你看到的这些是你的生日礼物🎂</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>听好了，接下来你看到的这些是你的生日礼物🎂</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[只能用官方IP访问Hypixel吗？答案：无限个【加速ip分享】]]></title>
         <id>https://mrkarro.github.io//post/hyp-ip-share</id>
