@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mrkarro.github.io/</id>
     <title>Infinite Craft Studio</title>
-    <updated>2020-02-07T05:39:51.982Z</updated>
+    <updated>2020-02-07T05:40:21.108Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mrkarro.github.io/"/>
     <link rel="self" href="https://mrkarro.github.io//atom.xml"/>
@@ -10,13 +10,6 @@
     <logo>https://mrkarro.github.io//images/avatar.png</logo>
     <icon>https://mrkarro.github.io//favicon.ico</icon>
     <rights>All rights reserved 2020, Infinite Craft Studio</rights>
-    <entry>
-        <title type="html"><![CDATA[友情链接]]></title>
-        <id>https://mrkarro.github.io//post/you-qing-lian-jie</id>
-        <link href="https://mrkarro.github.io//post/you-qing-lian-jie">
-        </link>
-        <updated>2020-02-07T05:28:35.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[一个不愿意透露姓名又没文化的还想送句子给某个人的网友做的不好看的访问速度贼慢的别人都不知道的自己工作室的一个网页...]]></title>
         <id>https://mrkarro.github.io//post/birthday-gift-for-catherine-only</id>
@@ -74,6 +67,19 @@
         <summary type="html"><![CDATA[<h2 id="interested-in-minecraft">Interested in Minecraft</h2>
 ]]></summary>
         <content type="html"><![CDATA[<h2 id="interested-in-minecraft">Interested in Minecraft</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[自己写的文章，送给张方方]]></title>
+        <id>https://mrkarro.github.io//post/my-articles-for-catherine</id>
+        <link href="https://mrkarro.github.io//post/my-articles-for-catherine">
+        </link>
+        <updated>2019-10-31T22:20:08.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="碎碎念">碎碎念</h2>
+<p>​        自从小学过后，时间好像就不属于我了，它仿佛一匹脱缰的野马，肆意地在我的世界狂奔，来不及一一告别，转眼，在这座陌生又熟悉的环境，已经生活了半年。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="碎碎念">碎碎念</h2>
+<p>​        自从小学过后，时间好像就不属于我了，它仿佛一匹脱缰的野马，肆意地在我的世界狂奔，来不及一一告别，转眼，在这座陌生又熟悉的环境，已经生活了半年。</p>
 ]]></content>
     </entry>
 </feed>
