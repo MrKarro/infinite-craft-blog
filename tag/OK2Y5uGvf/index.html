@@ -1,203 +1,200 @@
-
-<!DOCTYPE html>
 <html>
-  <head>
-    
-<meta charset="utf-8" >
-
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>教程 | Infinite Craft Studio</title>
-<meta name="description" content="Interested in Minecraft">
+<link rel="shortcut icon" href="https://mrkarro.github.io//favicon.ico?v=1581053624739">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://mrkarro.github.io//styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://localhost:4000/favicon.ico?v=1581051651317">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="http://localhost:4000/styles/main.css">
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="http://localhost:4000">
-        <img class="avatar" src="http://localhost:4000/images/avatar.png?v=1581051651317" alt="" width="32px" height="32px">
-      </a>
-      <a href="http://localhost:4000">
-        <h1 class="site-title">Infinite Craft Studio</h1>
-      </a>
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <div class="main-content">
+        <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Infinite Craft Studio
+        </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/links" class="menu gt-a-link">
+                            友链
+                        </a>
+                    
+                </div>
+            
+        </div>
     </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-        
-          <a class="menu purple-link" href="http://strawberry.infinite-craft.top" class="menu" target="_blank">
-            友链
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-
+</nav>
         <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> 教程
-          </h2> 
+            <h2 class="title gt-c-content-color-first">
+                #教程
+            </h2>
         </div>
+        <div class="post-list-container">
+    <div class="post-inner">
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://mrkarro.github.io//post/hyp-ip-share">
+                            <span class="post-title gt-c-content-color-first">只能用官方IP访问Hypixel吗？答案：无限个【加速ip分享】</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>作者：卡洛Karro</p>
+<p>Hypixel服务器是知名游戏Minecraft最大的竞技性小游戏群组服务器，为2017年-2019年Minecraft活跃用户玩家最多的服务器。<br>
+.<br>
+.<br>
+但中国玩家们常常被网络延迟所劝退😭，所以国际服延迟高的情况下，出现了假刀、杀戮光环、增加攻击距离等类似外挂但又不是的情况，导致了WatchDog将你进行封禁处理😱。</p>
 
-        
-<section class="post-item">
-    <div class="content">
-      <a href="http://localhost:4000/post/hyp-ip-share">
-        <h2 class="post-title">只能用官方IP访问Hypixel吗？答案：无限个【加速ip分享】</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-11-10</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="http://localhost:4000/tag/OK2Y5uGvf">
-                教程
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2019-11-10 ·
+                        </time>
+                        
+                            <a href="https://mrkarro.github.io//tag/OK2Y5uGvf" class="post-tag">
+                                # 教程
+                            </a>
+                        
+                    </div>
+                </div>
                 
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="http://localhost:4000/post/hyp-ip-share">
-        <div class="feature-container" style="background-image: url('https://s2.ax1x.com/2019/11/16/MBB9PA.png')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="http://localhost:4000/post/github-ym">
-        <h2 class="post-title">github搭建个人博客 - 如何绑定自定义域名访问</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-11-07</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="http://localhost:4000/tag/OK2Y5uGvf">
-                教程
+                    <a href="https://mrkarro.github.io//post/hyp-ip-share" class="post-feature-image"
+                       style="background-image: url('https://s2.ax1x.com/2019/11/16/MBB9PA.png')">
+                    </a>
                 
-              </a>
-            
-          </span>
+            </div>
         
-      </div>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://mrkarro.github.io//post/github-ym">
+                            <span class="post-title gt-c-content-color-first">github搭建个人博客 - 如何绑定自定义域名访问</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>写一个自己的理想网站把他放上去吧！还可以装B哦23333</p>
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2019-11-07 ·
+                        </time>
+                        
+                            <a href="https://mrkarro.github.io//tag/OK2Y5uGvf" class="post-tag">
+                                # 教程
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://mrkarro.github.io//post/github-ym" class="post-feature-image"
+                       style="background-image: url('https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1573904200711&amp;di=481f9183f6af71ebff5dc5649e9a85d9&amp;imgtype=0&amp;src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F17%2F12%2F31%2Fce700865b0d9c5cbd282622adcdcb1c9.jpg')">
+                    </a>
+                
+            </div>
+        
     </div>
+</div>
+        <div class="pagination-container">
     
-      <a href="http://localhost:4000/post/github-ym">
-        <div class="feature-container" style="background-image: url('https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1573904200711&amp;di=481f9183f6af71ebff5dc5649e9a85d9&amp;imgtype=0&amp;src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F17%2F12%2F31%2Fce700865b0d9c5cbd282622adcdcb1c9.jpg')">
-        </div>
-      </a>
     
-  </section>
-
-
-<div class="pagination-container">
-  
-  
 </div>
 
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">Interested in Minecraft</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://localhost:4000/atom.xml" target="_blank">RSS</a>
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">Interested in Minecraft</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a href="https://mrkarro.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+    hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>
