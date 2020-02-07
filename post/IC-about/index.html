@@ -1,111 +1,111 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>「Infinite Craft Studio」无限工艺工作室 | Infinite Craft Studio</title>
 <meta name="description" content="Interested in Minecraft">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://mrkarro.github.io//favicon.ico?v=1580987015283">
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico?v=1581051651317">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://mrkarro.github.io//styles/main.css">
+<link rel="stylesheet" href="http://localhost:4000/styles/main.css">
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 
 
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://mrkarro.github.io/">
-        <img src="https://mrkarro.github.io//images/avatar.png?v=1580987015283" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="http://localhost:4000">
+        <img class="avatar" src="http://localhost:4000/images/avatar.png?v=1581051651317" alt="" width="32px" height="32px">
+      </a>
+      <a href="http://localhost:4000">
         <h1 class="site-title">Infinite Craft Studio</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
         
-          <a href="http://strawberry.infinite-craft.top" class="site-nav" target="_blank">
+          <a class="menu purple-link" href="http://strawberry.infinite-craft.top" class="menu" target="_blank">
             友链
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      Interested in Minecraft
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://mrkarro.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">「Infinite Craft Studio」无限工艺工作室</h2>
-            <div class="post-date">2019-11-02</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('http://localhost:4000/post-images/IC-about.png')">
+            </div>
+          
+          <h2 class="post-title">「Infinite Craft Studio」无限工艺工作室</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-11-02</span>
             
-              <div class="feature-container" style="background-image: url('https://mrkarro.github.io//post-images/IC-about.png')">
-              </div>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="http://localhost:4000/tag/UHDccttVE">
+                    IC
+                    
+                  </a>
+                
+              </span>
             
-            <div class="post-content">
-              <h2 id="interested-in-minecraft">Interested in Minecraft</h2>
+          </div>
+          <div class="post-content">
+            <h2 id="interested-in-minecraft">Interested in Minecraft</h2>
 <h3 id="关于我们">关于我们</h3>
 <h4 id="创造空间的无限可能">\ 创造空间的无限可能 \</h4>
 <p>自2018年成立以来，我们专注在服务端设计工程领域。在Minecraft的圈子里，有太多看上去高大威猛的服务器了，求极速、稳定、效果好，太多的胜负心，太多的争强好胜且急于求成，让我们都忘了开服务器还要为玩家着想。如果要快，为什么不去照搬别人的想法呢？因为IC工作室能给予您的服务器无限的新想法。</p>
@@ -163,40 +163,43 @@
 <p>​                                                           也欢迎加入Infinite Craft工作室</p>
 <h6 id="infinite-craft-studio-copyright-2018-2019">Infinite Craft Studio® Copyright © 2018-2019</h6>
 
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://mrkarro.github.io//tag/UHDccttVE" class="tag">
-                    IC
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://mrkarro.github.io//post/hello-gridea">
-                  <h3 class="post-title">
-                    Gridea 启用
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
           </div>
-
         </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="http://localhost:4000/post/my-articles-for-catherine">
+              <h3 class="post-title">
+                下一篇：自己写的文章，送给张方方
+              </h3>
+            </a>
+          </div>
+          
       </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">Interested in Minecraft</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://localhost:4000/atom.xml" target="_blank">RSS</a>
+</div>
+
+
     </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 

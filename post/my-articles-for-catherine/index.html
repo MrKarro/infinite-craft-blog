@@ -1,108 +1,98 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>自己写的文章，送给张方方 | Infinite Craft Studio</title>
 <meta name="description" content="Interested in Minecraft">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://mrkarro.github.io//favicon.ico?v=1580987015283">
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico?v=1581051651317">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://mrkarro.github.io//styles/main.css">
+<link rel="stylesheet" href="http://localhost:4000/styles/main.css">
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 
 
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://mrkarro.github.io/">
-        <img src="https://mrkarro.github.io//images/avatar.png?v=1580987015283" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="http://localhost:4000">
+        <img class="avatar" src="http://localhost:4000/images/avatar.png?v=1581051651317" alt="" width="32px" height="32px">
+      </a>
+      <a href="http://localhost:4000">
         <h1 class="site-title">Infinite Craft Studio</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
         
-          <a href="http://strawberry.infinite-craft.top" class="site-nav" target="_blank">
+          <a class="menu purple-link" href="http://strawberry.infinite-craft.top" class="menu" target="_blank">
             友链
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      Interested in Minecraft
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://mrkarro.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">自己写的文章，送给张方方</h2>
-            <div class="post-date">2019-11-01</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">自己写的文章，送给张方方</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-11-01</span>
             
-            <div class="post-content">
-              <h2 id="碎碎念">碎碎念</h2>
+          </div>
+          <div class="post-content">
+            <h2 id="碎碎念">碎碎念</h2>
 <p>​        自从小学过后，时间好像就不属于我了，它仿佛一匹脱缰的野马，肆意地在我的世界狂奔，来不及一一告别，转眼，在这座陌生又熟悉的环境，已经生活了半年。</p>
 <p>​        小的时候讨厌写作文，因为总把它当做一种负担。后来遇到一个好老师，她告诉我作文重要的是写出心中真实的情感，从此天马行空，甚至可以说是为所欲为。</p>
 <p>​        由于考试的原因，我总是告诉自己不要花时间写文章或音乐了，记录也好，矫情也罢，一切等考完了再说。于是，一直以来，我压抑着心中的想法，总以为自己可以消化掉，只是，风过留声，雁过留痕，在人情世故中笨拙又生疏的我，又怎可能完全释怀。</p>
@@ -178,23 +168,43 @@ WeChat : zkn20070323<br>
 Twitter : Karro<br>
 Secret : Karro</p>
 
-            </div>
-            
-            
-
-            
-
           </div>
-
         </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="http://localhost:4000/post/hello-gridea">
+              <h3 class="post-title">
+                下一篇：Gridea 启用
+              </h3>
+            </a>
+          </div>
+          
       </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">Interested in Minecraft</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://localhost:4000/atom.xml" target="_blank">RSS</a>
+</div>
+
+
     </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
